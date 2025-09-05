@@ -12,7 +12,7 @@ Modificaciones realizadas por: [César Florian](https://github.com/cesar-florian
 ## Despliegue
 
 Este proyecto está publicado en:
-https://cesar-florian.github.io/Portfolio/
+https://cesar-florian.github.io/portfolio/
 
 
 
