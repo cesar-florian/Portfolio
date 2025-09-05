@@ -236,12 +236,12 @@ fieldset[disabled] .btn-xl.active {
 
 @media(min-width:768px) {
     .navbar-default {
-        padding: 10px 0;
+        padding: 10px 0; /** Igual al padding de .navbar-default.navbar-shrink para quitar la transicion **/
         border: 0;
         background-color: transparent;
-        -webkit-transition: padding .3s;
+        /*-webkit-transition: padding .3s;
         -moz-transition: padding .3s;
-        transition: padding .3s;
+        transition: padding .3s;*/
     }
 
     .navbar-default .navbar-brand {
