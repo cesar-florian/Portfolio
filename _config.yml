@@ -16,6 +16,14 @@ university:
 - name: Universidad Mariano Gálvez
   pic: 1.jpg
   degree: Maestría en Seguridad Informática
+  
+- name: Universidad Mariano Gálvez
+  pic: 2.jpg
+  degree: Maestría en Seguridad Informática
+
+- name: Universidad Mariano Gálvez
+  pic: 3.jpg
+  degree: Maestría en Seguridad Informática
 
 - name: Universidad Mariano Gálvez
   pic: umg.png
