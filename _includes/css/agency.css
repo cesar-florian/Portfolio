@@ -640,6 +640,9 @@ section h3.section-subheading {
 .education-item img {
     margin: 0 auto;
     border: 7px solid #fff;
+    width: 150px; /* Tamaño pequeño, ajusta este valor */
+    height: 150px; /* Mantén el mismo valor para que sea un círculo perfecto */
+    object-fit: cover; /* Asegura que la imagen no se distorsione */
 }
 
 .education-item h4 {
