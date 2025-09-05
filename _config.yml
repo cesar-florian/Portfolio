@@ -4,6 +4,7 @@ baseurl: /  #/portfolio
 
 # Site settings
 title: César Florian
+logo-text: CF
 email: ce.florian.27@gmail.com
 description: "Experto en el diseño y la implementación de soluciones de software. Mi trabajo se centra en construir arquitectura de microservicios en entornos cloud usando .NET para resolver desafíos complejos y eficientes."
 
