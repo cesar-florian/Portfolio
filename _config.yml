@@ -1,6 +1,6 @@
 domain: cesar-florian.github.io
 url: https://cesar-florian.github.io
-baseurl: ""  #/portfolio
+baseurl: /  #/portfolio
 
 # Site settings
 title: César Florian
