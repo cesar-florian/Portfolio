@@ -17,43 +17,53 @@ $(function() {
             if (firstName.indexOf(' ') >= 0) {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
-
-            var data = new FormData({
-                email: email,
-                message: message + ". Enviado por: " + name + (phone ?? ". Telefono: " + phone)
-            },);
-            $.ajax({
-                url: event.target.action,
-                type: $form.method,
-                body: data,
-                cache: false,
+            
+            fetch(event.target.action, {
+                method: event.target.method,
+                // Convertir el objeto a una cadena JSON
+                body: JSON.stringify({
+                    email: email,
+                    message: message + ". Enviado por: " + name + (phone ? ". Teléfono: " + phone : "")
+                }),
                 headers: {
-                    'Accept': 'application/json'
+                    'Accept': 'application/json',
+                    'Content-Type': 'application/json'
                 },
-                success: function() {
-                    // Success message
-                    $('#success').html("<div class='alert alert-success'>");
-                    $('#success > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
-                        .append("</button>");
-                    $('#success > .alert-success')
-                        .append("<strong>Tu mensaje ha sido enviado. </strong>");
-                    $('#success > .alert-success')
-                        .append('</div>');
-
-                    //clear all fields
-                    $('#contactForm').trigger("reset");
-                },
-                error: function() {
-                    // Fail message
-                    $('#success').html("<div class='alert alert-danger'>");
-                    $('#success > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
-                        .append("</button>");
-                    $('#success > .alert-danger').append("<strong>Lo siento " + firstName + ",  parece que mi servidor de correo no responde. ¡Vuelve a intentarlo más tarde!");
-                    $('#success > .alert-danger').append('</div>');
-                    //clear all fields
-                    $('#contactForm').trigger("reset");
-                },
+                cache: 'no-cache'
             })
+            .then(response => {
+                // Manejar la respuesta del servidor
+                if (!response.ok) {
+                    // Lanza un error si la respuesta no es exitosa (ej. 404, 500)
+                    throw new Error('Network response was not ok.');
+                }
+                return response.json(); // Convierte la respuesta a JSON
+            })
+            .then(data => {
+                // Esto se ejecuta solo si la petición fue exitosa y la respuesta es JSON válida
+                // Mensaje de éxito
+                $('#success').html("<div class='alert alert-success'>");
+                $('#success > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
+                    .append("</button>");
+                $('#success > .alert-success')
+                    .append("<strong>Tu mensaje ha sido enviado. </strong>");
+                $('#success > .alert-success')
+                    .append('</div>');
+                // Limpiar todos los campos
+                $('#contactForm').trigger("reset");
+            })
+            .catch(error => {
+                // Esto se ejecuta si hay un error en la red o si la respuesta no fue exitosa
+                // Mensaje de error
+                $('#success').html("<div class='alert alert-danger'>");
+                $('#success > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
+                    .append("</button>");
+                $('#success > .alert-danger').append("<strong>Lo siento, parece que mi servidor de correo no responde. ¡Vuelve a intentarlo más tarde!");
+                $('#success > .alert-danger').append('</div>');
+                // Limpiar todos los campos
+                $('#contactForm').trigger("reset");
+            });
+            
         },
         filter: function() {
             return $(this).is(":visible");
