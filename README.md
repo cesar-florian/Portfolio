@@ -7,12 +7,12 @@ Este sitio web es mi portafolio personal.
 ## Basado en
 
 Template original: [Agency Jekyll theme](https://github.com/y7kim/agency-jekyll-theme) creado por [y7kim](https://github.com/y7kim)
+
 Modificaciones realizadas por: [César Florian](https://github.com/cesar-florian)
 
 ## Despliegue
 
-Este proyecto está publicado en:
-https://cesar-florian.github.io/portfolio/
+Este proyecto está publicado en: https://cesar-florian.github.io
 
 
 
@@ -24,9 +24,9 @@ Los proyectos del portafolio se encuentran en '/_posts'
 
 Las imágenes se encuentran en '/img/portfolio'
 
-### Acerca de
+### Experiencia
 
-Las imágenes se encuentran en '/img/about/'
+Las imágenes se encuentran en '/img/experience/'
 
 ### Educación
 

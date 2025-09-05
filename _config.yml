@@ -14,11 +14,13 @@ university:
 - name: Universidad Mariano Gálvez
   pic: umg.png
   degree: Maestría en Seguridad Informática
+  year: 2023
   url: https://www.umg.edu.gt
 
 - name: Universidad Mariano Gálvez
   pic: umg.png
   degree: Ingeniería en Sistemas de Información y Ciencias de la Computación
+  year: 2017
   url: https://www.umg.edu.gt
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
@@ -33,6 +35,20 @@ social:
     url: http://bitbucket.org/jekyll
   - title: github
     url: http://github.com/jekyll
+
+experience:
+- institution: Banco Promerica
+  position: Analista Programador .NET
+  pic: 1.jpg
+  period: julio 2024 - presente
+  country: Guatemala
+  details: <ul class="list-unstyled">
+        <li><p class="text-muted">Modelado y documentación de sistemas utilizando UML y herramientas de diseño.</p></li>
+        <li><p class="text-muted">Mantenimiento de aplicaciones y servicios web de sistemas financieros.</p></li>
+        <li><p class="text-muted">Pruebas funcionales de sistemas.</p></li>
+    </ul>
+  url: https://www.bancopromerica.com.gt
+
 
 # Postal address (add as many lines as necessary)
 address:
