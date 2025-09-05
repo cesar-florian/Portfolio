@@ -19,7 +19,7 @@ $(function() {
             }
             $.ajax({
                 url: event.target.action,
-                type: form.method,
+                type: $form.method,
                 data: {
                     email: email,
                     message: message + ". Enviado por: " + name + (phone ?? ". Telefono: " + phone)
