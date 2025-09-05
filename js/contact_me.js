@@ -23,7 +23,7 @@ $(function() {
                 // Convertir el objeto a una cadena JSON
                 body: JSON.stringify({
                     email: email,
-                    message: message + ". Enviado por: " + name + (phone ? ". Teléfono: " + phone : "")
+                    message: message + " \n\nEnviado por: " + name + (phone ? "\nTeléfono: " + phone : "")
                 }),
                 headers: {
                     'Accept': 'application/json',
