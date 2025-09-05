@@ -30,7 +30,11 @@
                                         <h4 class="subheading">{{ exp.country }}</h4>
                                     </div>
                                     <div class="timeline-body">
-                                        {{ exp.details }}
+                                        <ul class="list-bullets">
+                                            {% for item in exp.details %}
+                                            <li><p class="text-muted">{{ item.line }}</p></li>
+                                            {% endfor %}
+                                        </ul>
                                     </div>
                                 </div>
                             </li>

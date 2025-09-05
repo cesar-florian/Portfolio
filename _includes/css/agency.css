@@ -57,6 +57,11 @@ h6 {
     font-weight: 700;
 }
 
+.list-bullets {
+    list-style-type: disc;   /* viñeta tipo punto */
+    padding-left: 20px;      /* espacio entre viñeta y texto */
+}
+
 .img-centered {
     margin: 0 auto;
 }

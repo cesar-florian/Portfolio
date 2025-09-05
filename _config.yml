@@ -39,15 +39,14 @@ social:
 experience:
 - institution: Banco Promerica
   position: Analista Programador .NET
+  url: https://www.bancopromerica.com.gt
   pic: 1.jpg
   period: julio 2024 - presente
   country: Guatemala
-  details: <ul class="list-unstyled">
-        <li><p class="text-muted">Modelado y documentación de sistemas utilizando UML y herramientas de diseño.</p></li>
-        <li><p class="text-muted">Mantenimiento de aplicaciones y servicios web de sistemas financieros.</p></li>
-        <li><p class="text-muted">Pruebas funcionales de sistemas.</p></li>
-    </ul>
-  url: https://www.bancopromerica.com.gt
+  details: 
+  - line: Modelado y documentación de sistemas utilizando UML y herramientas de diseño.
+  - line: Mantenimiento de aplicaciones y servicios web de sistemas financieros.
+  - line: Pruebas funcionales de sistemas.
 
 
 # Postal address (add as many lines as necessary)
