@@ -2,9 +2,9 @@ url: https://cesar-florian.github.io
 baseurl: /Portfolio
 
 # Site settings
-title: Awesome Title
-email: your-email@domain.com
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+title: César Florian
+email: ce.florian.27@gmail.com
+description: "Experto en el diseño y la implementación de soluciones de software. Mi trabajo se centra en construir arquitectura de microservicios en entornos cloud usando .NET para resolver desafíos complejos y eficientes."
 
 
 # Universidades/instituciones, nombre y titulo/certificado
