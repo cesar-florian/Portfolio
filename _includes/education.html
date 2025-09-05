@@ -1,0 +1,26 @@
+<!-- Education Section -->
+    <section id="education" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Educación</h2>
+                    <h3 class="section-subheading text-muted">Cuento con una sólida formación académica que complementa mi experiencia profesional, asegurando un enfoque bien fundamentado en cada proyecto.</h3>
+                </div>
+            </div>
+            <div class="row">
+                {% for school in site.university %}
+                <div class="col-sm-4">
+                    <div class="education-item">
+                        <a href="{{ network.url }}">
+                            <img src="img/education/{{ school.pic }}.jpg" class="img-responsive img-circle" alt="">
+                        </a>
+                        <a href="{{ network.url }}">
+                            <h4>{{ school.name }}</h4>
+                        </a>
+                        <p class="text-muted">{{ school.degree }}</p>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </section>
