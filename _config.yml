@@ -10,11 +10,11 @@ description: "Experto en el diseño y la implementación de soluciones de softwa
 # Universidades/instituciones, nombre y titulo/certificado
 university:
 - name: Universidad Mariano Gálvez
-  pic: 1
+  pic: umg.png
   degree: Maestría en Seguridad Informática
 
 - name: Universidad Mariano Gálvez
-  pic: 2
+  pic: umg.png
   degree: Ingeniería en Sistemas de Información y Ciencias de la Computación
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
