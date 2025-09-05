@@ -12,22 +12,12 @@ university:
 - name: Universidad Mariano Gálvez
   pic: umg.png
   degree: Maestría en Seguridad Informática
-
-- name: Universidad Mariano Gálvez
-  pic: 1.jpg
-  degree: Maestría en Seguridad Informática
-  
-- name: Universidad Mariano Gálvez
-  pic: 2.jpg
-  degree: Maestría en Seguridad Informática
-
-- name: Universidad Mariano Gálvez
-  pic: 3.jpg
-  degree: Maestría en Seguridad Informática
+  url: https://www.umg.edu.gt
 
 - name: Universidad Mariano Gálvez
   pic: umg.png
   degree: Ingeniería en Sistemas de Información y Ciencias de la Computación
+  url: https://www.umg.edu.gt
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
