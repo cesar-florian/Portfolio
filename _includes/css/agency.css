@@ -315,7 +315,6 @@ header .intro-text .intro-heading {
     }
 
     header .intro-text .intro-heading {
-        margin-top: 0px;
         margin-bottom: 25px;
         /*text-transform: uppercase;*/
         font-family: {{ site.data.template.font.primary }};
@@ -323,6 +322,11 @@ header .intro-text .intro-heading {
         font-weight: 700;
         line-height: 75px;
     }
+
+    h1{
+        margin-top: 0px;
+    }
+    
 }
 
 section {
