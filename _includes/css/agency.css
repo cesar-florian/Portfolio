@@ -655,6 +655,11 @@ section h3.section-subheading {
     margin-top: 0;
 }
 
+.row {
+    display: flex; /* Habilita el modo flexbox */
+    justify-content: center; /* Centra los ítems horizontalmente */
+}
+
 aside.clients img {
     margin: 50px auto;
 }
