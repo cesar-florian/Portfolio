@@ -46,13 +46,6 @@ a.active {
     color: #{{ site.data.template.color.secondary }};
 }
 
-
-header h1 {
-    margin-top: 0; 
-    padding-top: 70px; /* igual a la altura del navbar */
-}
-
-  
 /*h1,*/
 h2,
 h3,
@@ -243,7 +236,7 @@ fieldset[disabled] .btn-xl.active {
 
 @media(min-width:768px) {
     .navbar-default {
-        padding: 25px 0;
+        padding: 10px 0;
         border: 0;
         background-color: transparent;
         -webkit-transition: padding .3s;
