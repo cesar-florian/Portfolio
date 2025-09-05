@@ -17,14 +17,19 @@ $(function() {
             if (firstName.indexOf(' ') >= 0) {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
+
+            var data = new FormData({
+                email: email,
+                message: message + ". Enviado por: " + name + (phone ?? ". Telefono: " + phone)
+            },);
             $.ajax({
                 url: event.target.action,
                 type: $form.method,
-                data: {
-                    email: email,
-                    message: message + ". Enviado por: " + name + (phone ?? ". Telefono: " + phone)
-                },
+                body: data,
                 cache: false,
+                headers: {
+                    'Accept': 'application/json'
+                },
                 success: function() {
                     // Success message
                     $('#success').html("<div class='alert alert-success'>");
