@@ -9,7 +9,11 @@
             </div>
             <div class="row justify-content-center">
                 {% for school in site.university %}
+                {% if forloop.first and forloop.length < 3 %}
+                <div class="col-sm-4 col-sm-offset-2">
+                {% else %}
                 <div class="col-sm-4">
+                {% endif %}
                     <div class="education-item">
                         <a href="{{ school.url }}">
                             <img src="img/education/{{ school.pic }}" class="img-responsive img-circle" alt="">
