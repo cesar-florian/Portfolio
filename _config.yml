@@ -40,7 +40,7 @@ experience:
 - institution: Banco Promerica
   position: Analista Programador .NET
   url: https://www.bancopromerica.com.gt
-  pic: 1.jpg
+  pic: promerica.svg
   period: julio 2024 - presente
   country: Guatemala
   details: 
@@ -51,7 +51,7 @@ experience:
 - institution: AirPak
   position: Ingeniero de Software
   url: https://airpak.com.ni
-  pic: 2.jpg
+  pic: airpak.jpg
   period: junio 2021 - julio 2024
   country: Nicaragua
   details: 
@@ -63,9 +63,9 @@ experience:
   - line: Implementación e integración de servicios de colectores de pagos de servicios en sistema basado en las tecnologías .NET y React.
 
 - institution: IT Profis
-  position: Desarrollador de Software Backend
+  position: Desarrollador de Software
   url: https://www.itprofis-gt.com
-  pic: 3.jpg
+  pic: itprofis.png
   period: abril 2020 - julio 2024
   country: Guatemala
   details: 
