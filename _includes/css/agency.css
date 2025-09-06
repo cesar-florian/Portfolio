@@ -47,22 +47,12 @@ a.active {
 }
 
 .svg-timeline-start {
-    /* Color primario por defecto */
-    fill: #{{ site.data.template.color.primary }}; 
-    
-    /* Establece la duración de la transición para los cambios de color */
-    transition: fill 0.3s ease-in-out;
+    fill: #{{ site.data.template.color.primary }}; /* Color primario por defecto */
+    transition: fill 0.3s ease-in-out; /* Establece la duración de la transición para los cambios de color */
 }
 
 .svg-timeline-start:hover {
-    /* Cambia el color del relleno a un color secundario al pasar el mouse por encima */
-    fill: #{{ site.data.template.color.secondary }};
-}
-
-.link-timeline-start {
-    -webkit-transition: all ease .35s;
-    -moz-transition: all ease .35s;
-    transition: all ease .35s;
+    fill: #{{ site.data.template.color.secondary }}; /* Cambia el color del relleno a un color secundario al pasar el mouse por encima */
 }
 
 

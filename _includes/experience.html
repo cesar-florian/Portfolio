@@ -17,14 +17,14 @@
                         {% else %}
                         <li>
                         {% endif %}
-                            <a href="{{ exp.url }}">                       
+                            <a href="{{ exp.url }}" target="_blank" >                       
                                 <div class="timeline-image">
                                      <img class="img-circle img-responsive" src="img/experience/{{ exp.pic }}" alt="">
                                 </div>
                             </a>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
-                                    <a href="{{ exp.url }}">
+                                    <a href="{{ exp.url }}" target="_blank" >
                                         <h4>{{ exp.institution }}</h4>
                                     </a>
                                     <h5>{{ exp.position }}</h5>
@@ -42,7 +42,7 @@
                         </li>
                         {% endfor %}
                         <li class="timeline-inverted">
-                            <a class="page-scroll link-timeline-start" href="#experience">
+                            <a class="page-scroll" href="#experience">
                                 <div class="timeline-image">
                                     <!--<img class="img-circle img-responsive" src="img/experience/circle-arrow-up.svg" alt="">-->
                                     <svg class="svg-timeline-start" xmlns="http://www.w3.org/2000/svg" viewBox="64 64 512 512">
