@@ -48,15 +48,15 @@ a.active {
 
 .svg-start {
     /* Color primario por defecto */
-    background-color: #0177A2; 
+    fill: #{{ site.data.template.color.primary }}; 
     
-    /* Suaviza la transición de color en 0.3 segundos */
-    transition: background-color 0.3s ease-in-out;
+    /* Establece la duración de la transición para los cambios de color */
+    transition: fill 0.3s ease-in-out;
 }
 
 .svg-start:hover {
-  /* Color secundario al pasar el mouse por encima */
-    background-color: #01658A;
+    /* Cambia el color del relleno a un color secundario al pasar el mouse por encima */
+    fill: #{{ site.data.template.color.secondary }};
 }
 
 /*h1,*/
