@@ -488,6 +488,9 @@ section h3.section-subheading {
 }
 
 .timeline>li .timeline-image {
+    display: flex; /* Habilita Flexbox */
+    align-items: center; /* Centra verticalmente */
+    justify-content: center; /* Centra horizontalmente */
     z-index: 100;
     position: absolute;
     left: 0;
