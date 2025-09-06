@@ -13,9 +13,9 @@
 
                         {% for exp in site.experience %}
                             {% if forloop.index % 2 == 0 %}
-                            <li>
+                            <li>{{ forloop.index }}
                             {% else %}
-                            <li class="timeline-inverted">
+                            <li class="timeline-inverted">{{ forloop.index }}
                             {% endif %}                             
                                 <div class="timeline-image">
                                     <a href="{{ exp.url }}"></a>
