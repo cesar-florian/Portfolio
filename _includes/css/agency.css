@@ -46,7 +46,7 @@ a.active {
     color: #{{ site.data.template.color.secondary }};
 }
 
-.svg-start {
+.svg-timeline-start {
     /* Color primario por defecto */
     fill: #{{ site.data.template.color.primary }}; 
     
@@ -54,10 +54,17 @@ a.active {
     transition: fill 0.3s ease-in-out;
 }
 
-.svg-start:hover {
+.svg-timeline-start:hover {
     /* Cambia el color del relleno a un color secundario al pasar el mouse por encima */
     fill: #{{ site.data.template.color.secondary }};
 }
+
+.link-timeline-start {
+    -webkit-transition: all ease .35s;
+    -moz-transition: all ease .35s;
+    transition: all ease .35s;
+}
+
 
 /*h1,*/
 h2,
