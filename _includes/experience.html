@@ -12,8 +12,8 @@
                     <ul class="timeline">
 
                         {% for exp in site.experience %}
-                            {% if forloop.index % 2 == 0 %}
-                            <li>{{ forloop.index }}
+                            {% if forloop.index0 modulo 2 == 0 %}
+                            <li>{{ forloop.index0 }}
                             {% else %}
                             <li class="timeline-inverted">{{ forloop.index }}
                             {% endif %}                             
