@@ -12,11 +12,12 @@
                     <ul class="timeline">
 
                         {% for exp in site.experience %}
-                            {% if forloop.even %}
-                            <li> {{ forloop.even }}
+                            {% assign mod = forloop.index | modulo: 2 %}
+                            {% if mod == 0 %}
+                            <li>
                             {% else %}
-                            <li class="timeline-inverted"> {{ forloop.even }}
-                            {% endif %}                             
+                            <li class="timeline-inverted">
+                            {% endif %}                            
                                 <div class="timeline-image">
                                     <a href="{{ exp.url }}"></a>
                                         <img class="img-circle img-responsive" src="img/education/{{ exp.pic }}" alt="">
