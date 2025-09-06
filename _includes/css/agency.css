@@ -46,6 +46,19 @@ a.active {
     color: #{{ site.data.template.color.secondary }};
 }
 
+.svg-start {
+    /* Color primario por defecto */
+    background-color: #0177A2; 
+    
+    /* Suaviza la transición de color en 0.3 segundos */
+    transition: background-color 0.3s ease-in-out;
+}
+
+.svg-start:hover {
+  /* Color secundario al pasar el mouse por encima */
+    background-color: #01658A;
+}
+
 /*h1,*/
 h2,
 h3,
