@@ -48,6 +48,32 @@ experience:
   - line: Mantenimiento de aplicaciones y servicios web de sistemas financieros.
   - line: Pruebas funcionales de sistemas.
 
+- institution: AirPak
+  position: Ingeniero de Software
+  url: https://airpak.com.ni
+  pic: 2.jpg
+  period: junio 2021 - julio 2024
+  country: Nicaragua
+  details: 
+  - line: Mantenimiento de aplicaciones y servicios web de sistemas transaccionales de remesas.
+  - line: Integración de pasarela de pagos con el backend del sistema.
+  - line: Implementación de herramienta de análisis de comportamiento de usuarios en aplicaciones web construidas en React.
+  - line: Integración de proveedor externo para el envío de SMS.
+  - line: Responsable de liderar la integración de servicio de verificación de identidad a través de servicios web de terceros.
+  - line: Implementación e integración de servicios de colectores de pagos de servicios en sistema basado en las tecnologías .NET y React.
+
+experience:
+- institution: IT Profis
+  position: Desarrollador de Software Backend
+  url: https://www.itprofis-gt.com
+  pic: 3.jpg
+  period: abril 2020 - julio 2024
+  country: Guatemala
+  details: 
+  - line: Migración y reestructuración de sistema de créditos hacia una arquitectura basada en microservicios.
+  - line: Implementación de seguridad basada en tokens utilizando OAuth2 y JWT.
+  - line: Desarrollo e integración de servicios de procesamiento de transacciones (colectores) para entidades internacionales.
+
 
 # Postal address (add as many lines as necessary)
 address:
