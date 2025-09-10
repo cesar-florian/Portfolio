@@ -668,6 +668,28 @@ section h3.section-subheading {
     margin-top: 0;
 }
 
+.certifications-item {
+    text-align: center;
+}
+
+.certifications-item img {
+    margin: 0 auto;
+    border: 7px solid #fff;
+    width: 150px; /* Tamaño pequeño, ajusta este valor */
+    height: 150px; /* Mantén el mismo valor para que sea un círculo perfecto */
+    object-fit: cover; /* Asegura que la imagen no se distorsione */
+}
+
+.certifications-item h4 {
+    margin-top: 25px;
+    margin-bottom: 0;
+    text-transform: none;
+}
+
+.certifications-item p {
+    margin-top: 0;
+}
+
 .skills-item {
     text-align: center;
 }
