@@ -83,21 +83,23 @@ services:
   description: Construcción de aplicaciones a medida (web, APIs y sistemas distribuidos) utilizando .NET y tecnologías modernas, con foco en rendimiento y mantenibilidad.
   icon: fa-code
 
-- title: Testing, observabilidad y garantía de calidad
-  description: Implementación de pruebas automatizadas y monitoreo de métricas, logs y trazas para asegurar aplicaciones confiables, estables y fáciles de mantener.
-  icon: fa-eye
+- title: Soluciones en la nube
+  description: Diseño y despliegue de aplicaciones en entornos cloud (Oracle Cloud, GCP, Azure), aplicando buenas prácticas de escalabilidad, seguridad y optimización de costos.
+  icon: fa-cloud
 
 - title: Seguridad de la información
   description: 'Integración de estándares de seguridad en el ciclo de vida del software: protección de datos sensibles, controles de acceso, auditoría y cumplimiento normativo.'
   icon: fa-shield
 
+- title: Testing, observabilidad y garantía de calidad
+  description: Implementación de pruebas automatizadas y monitoreo de métricas, logs y trazas para asegurar aplicaciones confiables, estables y fáciles de mantener.
+  icon: fa-check-square-o
+
 - title: Integración de sistemas y APIs
   description: Conexión de aplicaciones internas, plataformas externas y servicios en la nube, garantizando interoperabilidad, seguridad y confiabilidad.
   icon: fa-plug
 
-- title: Soluciones en la nube
-  description: Diseño y despliegue de aplicaciones en entornos cloud (Oracle Cloud, GCP, Azure), aplicando buenas prácticas de escalabilidad, seguridad y optimización de costos.
-  icon: fa-cloud
+
 
 
 # Postal address (add as many lines as necessary)
