@@ -74,6 +74,40 @@ experience:
   - line: Desarrollo e integración de servicios de procesamiento de transacciones (colectores) para entidades internacionales.
 
 
+services:
+- title: Arquitectura de software y soluciones empresariales
+  description: Diseño de sistemas escalables, modulares y seguros, alineados con las necesidades estratégicas de la organización.
+  icon: fa-diagram-project
+
+- title: Desarrollo de software personalizado
+  description: Construcción de aplicaciones a medida (web, APIs y sistemas distribuidos) utilizando .NET y tecnologías modernas, con foco en rendimiento y mantenibilidad.
+  icon: fa-code
+
+- title: Modernización y optimización de sistemas
+  description: Migración y refactorización de sistemas existentes, reducción de deuda técnica, mejora de tiempos de respuesta y optimización de recursos.
+  icon: fa-gauge-high
+
+- title: Observabilidad y telemetría
+  description: Implementación de monitoreo, métricas, logging estructurado y trazas distribuidas para garantizar visibilidad completa y resolución ágil de problemas.
+  icon: fa-chart-line
+
+- title: Seguridad de la información y ciberseguridad
+  description: 'Integración de estándares de seguridad en el ciclo de vida del software: protección de datos sensibles, controles de acceso, auditoría y cumplimiento normativo.'
+  icon: fa-shield-halved
+
+- title: Integración de sistemas y APIs
+  description: Conexión de aplicaciones internas, plataformas externas y servicios en la nube, garantizando interoperabilidad, seguridad y confiabilidad.
+  icon: fa-plug
+
+- title: Testing y garantía de calidad
+  description: Diseño de estrategias de pruebas automatizadas (unitarias, integración, carga) para asegurar estabilidad, confiabilidad y calidad del software.
+  icon: fa-vial-circle-check
+
+- title: Soluciones en la nube
+  description: Diseño y despliegue de aplicaciones en entornos cloud (Oracle Cloud, GCP, Azure), aplicando buenas prácticas de escalabilidad, seguridad y optimización de costos.
+  icon: fa-cloud
+
+
 # Postal address (add as many lines as necessary)
 address:
   - line: 3481 Melrose Place
