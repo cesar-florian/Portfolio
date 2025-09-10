@@ -9,12 +9,11 @@
             </div>
             <div class="row justify-content-center">
                 {% for certificate in site.certifications %}
-                {% if forloop.first and forloop.length == 1 %}
-                <div class="col-sm-4 col-sm-offset-4">
+                {% if forloop.first and forloop.length = 2 %}
+                <div class="col-sm-4 col-sm-offset-2">
                 {% else %}
                 <div class="col-sm-4">
                 {% endif %}
-                <div class="col-sm-4">
                     <div class="certifications-item">
                         <a href="{{ certificate.url }}" target="_blank" >
                             <img src="img/certifications/{{ certificate.image }}" class="img-responsive" alt="">
