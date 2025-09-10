@@ -16,15 +16,12 @@ university:
 
 - name: Universidad Mariano Gálvez
   pic: umg.png
-  degree: Maestría en Seguridad Informática
-  year: 2023
   url: https://www.umg.edu.gt
-
-- name: Universidad Mariano Gálvez
-  pic: umg.png
-  degree: Ingeniería en Sistemas de Información y Ciencias de la Computación
-  year: 2017
-  url: https://www.umg.edu.gt
+  levels:
+  - degree: Maestría en Seguridad Informática
+    year: 2023
+  - degree: Ingeniería en Sistemas de Información y Ciencias de la Computación
+    year: 2017
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
