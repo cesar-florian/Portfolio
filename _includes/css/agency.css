@@ -680,7 +680,7 @@ section h3.section-subheading {
 
 .about {
     margin-bottom: 50px;
-    margin-top: 100px;
+    margin-top: 750px;
     text-align: center;
 }
 
@@ -712,12 +712,12 @@ section#contact .section-heading {
 }
 
 section#contact .form-group {
-    margin-bottom: 25px;
+    /*margin-bottom: 25px;*/
 }
 
 section#contact .form-group input,
 section#contact .form-group textarea {
-    padding: 20px;
+    padding: 10px;
 }
 
 section#contact .form-group input.form-control {
