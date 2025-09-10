@@ -121,6 +121,20 @@ skills:
   list: [ JWT, OAuth2, RSA / Cryptography, OWASP ]
 
 
+certifications:
+
+- name: OCI Certified Foundations Associate
+  entity: Oracle
+  description: Conceptos básicos de OCI, su arquitectura y modelo de nube distribuida
+  url: https://catalog-education.oracle.com/ords/certview/sharebadge?id=1D383088D85462FE25AAA0140A5FB74467C2B5C292A559976C77F4B39508C018
+  image: foundations.png
+
+- name: OCI Certified Foundations Associate
+  entity: Oracle
+  description: Conceptos básicos de OCI, su arquitectura y modelo de nube distribuida
+  url: https://catalog-education.oracle.com/ords/certview/sharebadge?id=1D383088D85462FE25AAA0140A5FB74467C2B5C292A559976C77F4B39508C018
+  image: foundations.png
+
 
 # Postal address (add as many lines as necessary)
 address:
