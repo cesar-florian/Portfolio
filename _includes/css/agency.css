@@ -816,7 +816,7 @@ ul.social-buttons li a:active {
 }
 
 .portfolio-modal .modal-content {
-    padding: 100px 0;
+    padding: 70px 0;
     min-height: 100%;
     border: 0;
     border-radius: 0;
@@ -828,6 +828,7 @@ ul.social-buttons li a:active {
 
 .portfolio-modal .modal-content h2 {
     margin-bottom: 15px;
+    margin-top: 15px;
     font-size: 3em;
 }
 
@@ -867,9 +868,9 @@ ul.social-buttons li a:active {
 
 .portfolio-modal .close-modal .lr {
     z-index: 1051;
-    width: 1px;
+    width: 2px;
     height: 40px;
-    margin-left: 35px;
+    margin-left: 20px;
     background-color: #222;
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
@@ -878,7 +879,7 @@ ul.social-buttons li a:active {
 
 .portfolio-modal .close-modal .lr .rl {
     z-index: 1052;
-    width: 1px;
+    width: 2px;
     height: 40px;
     background-color: #222;
     -webkit-transform: rotate(90deg);
