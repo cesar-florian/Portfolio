@@ -675,14 +675,13 @@ section h3.section-subheading {
 
 .skills-item h4 {
     margin-top: 25px;
-    margin-bottom: 0;
     text-transform: none;
 }
 
 .skills-item p {
     margin-top: 0;
+    margin-bottom: 0;
 }
-
 
 aside.clients img {
     margin: 50px auto;
