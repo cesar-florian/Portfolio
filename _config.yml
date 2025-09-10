@@ -88,7 +88,7 @@ services:
   description: Construcción de aplicaciones a medida (web, APIs y sistemas distribuidos) utilizando .NET y tecnologías modernas, con foco en rendimiento y mantenibilidad.
   icon: fa-code
 
-- title: Soluciones en la nube
+- title: Soluciones empresariales en la nube
   description: Diseño y despliegue de aplicaciones en entornos cloud (Oracle Cloud, GCP, Azure), aplicando buenas prácticas de escalabilidad, seguridad y optimización de costos.
   icon: fa-cloud
 
