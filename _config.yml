@@ -6,8 +6,8 @@ baseurl: /  #/portfolio
 title: César Florian
 logo-text: CF
 email: ce.florian.27@gmail.com
-description: 'Experto en el diseño y la implementación de soluciones de software. Mi trabajo se centra en construir arquitectura de microservicios en entornos cloud usando .NET para resolver desafíos complejos y eficientes.'
-summary: 'Tengo más de 5 años de experiencia diseñando, desarrollando e implementando soluciones distribuidas escalables. Destaco en arquitecturas orientadas a eventos, microservicios y APIs RESTful.'
+description: 'Soy un profesional especializado en el diseño y la implementación de soluciones de software eficientes, escalables y alineadas a las necesidades estratégicas de las empresas. Mi trabajo se centra en construir arquitecturas de microservicios en entornos cloud usando .NET para resolver desafíos complejos de manera eficiente.'
+summary: 'Tengo más de 5 años de experiencia diseñando, desarrollando e implementando soluciones distribuidas escalables. Destaco en arquitecturas orientadas a eventos, microservicios y APIs RESTful, pero también en la optimización de sistemas existentes, modernización de aplicaciones heredadas y adopción de buenas prácticas de desarrollo seguro. He liderado iniciativas de integración con múltiples plataformas, aplicado patrones de diseño para mejorar la resiliencia de los sistemas y trabajado en la implementación de prácticas de observabilidad para garantizar disponibilidad y rendimiento. Mi enfoque une la parte técnica con las necesidades del negocio, garantizando que cada solución realmente resuelva problemas y genere valor para la organización.'
 image: img/about/me.jpg
 
 # Universidades/instituciones, nombre y titulo/certificado
