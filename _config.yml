@@ -83,12 +83,8 @@ services:
   description: Construcción de aplicaciones a medida (web, APIs y sistemas distribuidos) utilizando .NET y tecnologías modernas, con foco en rendimiento y mantenibilidad.
   icon: fa-code
 
-- title: Modernización y optimización de sistemas
-  description: Migración y refactorización de sistemas existentes, reducción de deuda técnica, mejora de tiempos de respuesta y optimización de recursos.
-  icon: fa-line-chart
-
-- title: Observabilidad y telemetría
-  description: Implementación de monitoreo, métricas, logging estructurado y trazas distribuidas para garantizar visibilidad completa y resolución ágil de problemas.
+- title: Testing, observabilidad y garantía de calidad
+  description: Implementación de pruebas automatizadas y monitoreo de métricas, logs y trazas para asegurar aplicaciones confiables, estables y fáciles de mantener.
   icon: fa-eye
 
 - title: Seguridad de la información
@@ -98,10 +94,6 @@ services:
 - title: Integración de sistemas y APIs
   description: Conexión de aplicaciones internas, plataformas externas y servicios en la nube, garantizando interoperabilidad, seguridad y confiabilidad.
   icon: fa-plug
-
-- title: Testing y garantía de calidad
-  description: Diseño de estrategias de pruebas automatizadas (unitarias, integración, carga) para asegurar estabilidad, confiabilidad y calidad del software.
-  icon: fa-check-square-o
 
 - title: Soluciones en la nube
   description: Diseño y despliegue de aplicaciones en entornos cloud (Oracle Cloud, GCP, Azure), aplicando buenas prácticas de escalabilidad, seguridad y optimización de costos.
