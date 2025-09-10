@@ -12,7 +12,7 @@
                         <img class="img-circle img-responsive" src="{{ site.image }}" alt="">
                         <h3 class="principal">{{ site.title }}</h3>
                         <p class="text-muted text-justify">{{ site.description }}</p>
-                        <p class="text-muted text-justify">{{ site.summary }}</p>
+                        <p class="text-muted text-justify">{{ site.summary | replace: "[year]", "now" | date: "%Y" | plus: 0 | minus: site.start-year }}</p>
                     </div>
                 </div>
             </div>
