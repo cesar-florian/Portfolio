@@ -91,7 +91,7 @@ services:
   description: Implementación de monitoreo, métricas, logging estructurado y trazas distribuidas para garantizar visibilidad completa y resolución ágil de problemas.
   icon: fa-eye
 
-- title: Seguridad de la información y ciberseguridad
+- title: Seguridad de la información
   description: 'Integración de estándares de seguridad en el ciclo de vida del software: protección de datos sensibles, controles de acceso, auditoría y cumplimiento normativo.'
   icon: fa-shield
 
