@@ -6,11 +6,13 @@ baseurl: /  #/portfolio
 title: César Florian
 logo-text: CF
 email: ce.florian.27@gmail.com
-description: "Experto en el diseño y la implementación de soluciones de software. Mi trabajo se centra en construir arquitectura de microservicios en entornos cloud usando .NET para resolver desafíos complejos y eficientes."
-
+description: 'Experto en el diseño y la implementación de soluciones de software. Mi trabajo se centra en construir arquitectura de microservicios en entornos cloud usando .NET para resolver desafíos complejos y eficientes.'
+summary: 'Tengo más de 5 años de experiencia diseñando, desarrollando e implementando soluciones distribuidas escalables. Destaco en arquitecturas orientadas a eventos, microservicios y APIs RESTful.'
+image: img/about/me.jpg
 
 # Universidades/instituciones, nombre y titulo/certificado
 university:
+
 - name: Universidad Mariano Gálvez
   pic: umg.png
   degree: Maestría en Seguridad Informática
@@ -25,6 +27,7 @@ university:
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
+
   - title: twitter
     url: http://twitter.com/jekyllrb
   - title: facebook
@@ -37,6 +40,7 @@ social:
     url: http://github.com/jekyll
 
 experience:
+
 - institution: Banco Promerica
   position: Analista Programador .NET
   url: https://www.bancopromerica.com.gt
@@ -75,6 +79,7 @@ experience:
 
 
 services:
+
 - title: Arquitectura de software y soluciones empresariales
   description: Diseño de sistemas escalables, modulares y seguros, alineados con las necesidades estratégicas de la organización.
   icon: fa-sitemap
@@ -101,14 +106,15 @@ services:
 
 
 skills:
-- group: Arquitectura y diseño
-  list: [ Clean Architecture, Microservices, High Availability, PlantUML, YARP / API Gateway, MVC, Design Patterns, Event-Driven Architecture, Hexagonal Architecture, Domain Driven Design, CQRS, Event Sourcing, Pub-Sub Pattern, Saga Patterns, SNS / SQS, Backend For Frontend, BIAN / Open Banking ]
+
+- group: Cloud, DevOps y control de versiones
+  list: [ Oracle Cloud / OCI, Docker, Kubernetes, GCP, IIS, Linux, Git / GitHub, Azure / AKS ]
 
 - group: Desarrollo (Backend y Frontend)
   list: [ C# / .NET, SQL Server, Entity Framework, RabbitMQ, SOAP / REST, MongoDB, JavaScript, JQuery, React, Bootstrap, HTML / CSS, Python ]
 
-- group: Cloud, DevOps y control de versiones
-  list: [ Oracle Cloud / OCI, Docker, Kubernetes, GCP, IIS, Linux, Git / GitHub, Azure / AKS ]
+- group: Arquitectura y diseño
+  list: [ Clean Architecture, Microservices, High Availability, PlantUML, YARP / API Gateway, MVC, Design Patterns, Event-Driven Architecture, Hexagonal Architecture, Domain Driven Design, CQRS, Event Sourcing, Pub-Sub Pattern, Saga Patterns, SNS / SQS, Backend For Frontend, BIAN / Open Banking ]
 
 - group: Calidad y observabilidad
   list: [ Testing, Dynatrace, Grafana, Prometheus, Jaeger, OpenTelemetry, Logging, Kibana ]
