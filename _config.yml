@@ -102,19 +102,19 @@ services:
 
 skills:
 - group: Arquitectura y diseño
-  list: Clean Architecture, Microservices, High Availability, PlantUML, YARP / API Gateway, MVC, Design Patterns, Event-Driven Architecture, Hexagonal Architecture, Domain Driven Design, CQRS, Event Sourcing, SNS / SQS, Saga Patterns, Backend For Frontend, BIAN / Open Banking, Pub/Sub Pattern
+  list: [ Clean Architecture, Microservices, High Availability, PlantUML, YARP / API Gateway, MVC, Design Patterns, Event-Driven Architecture, Hexagonal Architecture, Domain Driven Design, CQRS, Event Sourcing, SNS / SQS, Saga Patterns, Backend For Frontend, BIAN / Open Banking, Pub/Sub Pattern ]
 
 - group: Desarrollo (Backend y Frontend)
-  list: C# / .NET, SQL Server, Entity Framework, RabbitMQ, SOAP / REST, MongoDB, JavaScript, JQuery, React, Bootstrap, HTML / CSS, Java, Python
+  list: [ C# / .NET, SQL Server, Entity Framework, RabbitMQ, SOAP / REST, MongoDB, JavaScript, JQuery, React, Bootstrap, HTML / CSS, Java, Python ]
 
 - group: Cloud, DevOps y control de versiones
-  list: Docker, Kubernetes, GCP, IIS, Linux, Git / GitHub, Azure / AKS
+  list: [ Docker, Kubernetes, GCP, IIS, Linux, Git / GitHub, Azure / AKS ]
 
 - group: Calidad y observabilidad
-  list: Testing, Observability, Grafana, Prometheus, Jaeger, OpenTelemetry, Logging, Kibana
+  list: [ Testing, Observability, Grafana, Prometheus, Jaeger, OpenTelemetry, Logging, Kibana ]
 
 - group: Seguridad
-  list: JWT / OAuth2, RSA / Cryptography, OWASP
+  list: [ JWT / OAuth2, RSA / Cryptography, OWASP ]
 
 
 
