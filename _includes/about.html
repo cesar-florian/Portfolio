@@ -12,9 +12,13 @@
                         <img class="img-circle img-responsive" src="{{ site.image }}" alt="">
                         <h3 class="principal">{{ site.title }}</h3>
                         <p class="text-muted text-justify">{{ site.description }}</p>
-                        {% assign current_year = "now" | date: "%Y" | plus: 0 %}
-                        {% assign diference = current_year | minus: site.start-year %}
-                        <p class="text-muted text-justify">{{ site.summary | replace: "[year]", diference }}</p>
+                        {% assign start_date = site.start-date | date: "%s" %}
+                        {% assign current_date = "now" | date: "%s" %}
+                        {% assign seconds_passed = current_date | minus: start_date %}
+                        {% assign seconds_in_day = 60 | times: 60 | times: 24 %}
+                        {% assign full_days_passed = seconds_passed | divided_by: seconds_in_day %}
+                        {% assign full_years_passed = full_days_passed | divided_by: 365 %}
+                        <p class="text-muted text-justify">{{ site.summary | replace: "[years]", full_years_passed }}</p>
                     </div>
                 </div>
             </div>
