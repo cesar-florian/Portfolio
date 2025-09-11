@@ -673,11 +673,20 @@ section h3.section-subheading {
 }
 
 .certifications-item img {
-    margin: 0 auto;
-    border: 7px solid #fff;
-    width: 150px; /* Tamaño pequeño, ajusta este valor */
-    height: 150px; /* Mantén el mismo valor para que sea un círculo perfecto */
-    object-fit: cover; /* Asegura que la imagen no se distorsione */
+    display: flex; /* Habilita Flexbox */
+    align-items: center; /* Centra verticalmente */
+    justify-content: center; /* Centra horizontalmente */
+    z-index: 100;
+    position: absolute;
+    left: 0;
+    width: 80px;
+    height: 80px;
+    margin-left: 0;
+    border: 7px solid #f1f1f1;
+    border-radius: 100%;
+    text-align: center;
+    color: #fff;
+    background-color: #fff;;
 }
 
 .certifications-item h4 {
