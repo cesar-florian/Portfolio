@@ -681,7 +681,7 @@ section h3.section-subheading {
     align-items: center;
     justify-content: center;
     z-index: 100;
-    /*border: 7px solid #f1f1f1;*/
+    border: 7px solid #f1f1f1;
 }
 
 .certifications-item h4 {
