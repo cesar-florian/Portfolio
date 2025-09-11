@@ -15,10 +15,8 @@
                 <div class="col-sm-4">
                 {% endif %}
                     <div class="certifications-item">
-                        <a href="{{ certificate.url }}" target="_blank" >
-                            <div class="certifications-image">
-                                <img src="img/certifications/{{ certificate.image }}" class="img-responsive" alt="">
-                            </div>
+                        <a href="{{ certificate.url }}" target="_blank" class="certifications-link-image" >
+                            <img src="img/certifications/{{ certificate.image }}" class="img-responsive" alt="">
                         </a>
                         <a href="{{ certificate.url }}" target="_blank" >
                             <h4>{{ certificate.name }}</h4>
