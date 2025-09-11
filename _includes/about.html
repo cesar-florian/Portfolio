@@ -12,6 +12,7 @@
                         <img class="img-circle img-responsive" src="{{ site.image }}" alt="">
                         <h3 class="principal">{{ site.title }}</h3>
                         <p class="text-muted text-justify">{{ site.description }}</p>
+                        
                         {% assign start_date = site.start-date | date: "%s" %}
                         {% assign current_date = "now" | date: "%s" %}
                         {% assign seconds_passed = current_date | minus: start_date %}
