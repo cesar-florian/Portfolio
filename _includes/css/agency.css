@@ -674,19 +674,14 @@ section h3.section-subheading {
 
 .certifications-link-image {
     margin: 0 auto;
-    width: 150px; /* Tamaño pequeño, ajusta este valor */
+    width: 100%; /* Tamaño pequeño, ajusta este valor */
     height: 150px; /* Mantén el mismo valor para que sea un círculo perfecto */
     object-fit: cover; /* Asegura que la imagen no se distorsione */
-
     display: flex; /* Habilita Flexbox */
     align-items: center; /* Centra verticalmente */
     justify-content: center; /* Centra horizontalmente */
     z-index: 100;
-    left: 0;
-    margin-left: 0;
-    border: 7px solid #f1f1f1;
-    border-radius: 100%;
-    text-align: center;
+    /*border: 7px solid #f1f1f1;*/
 }
 
 .certifications-item h4 {
