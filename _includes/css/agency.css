@@ -675,7 +675,7 @@ section h3.section-subheading {
 .certifications-link-image {
     margin: 0 auto;
     width: 100%; /* Tamaño pequeño, ajusta este valor */
-    height: 150px; /* Mantén el mismo valor para que sea un círculo perfecto */
+    height: 250px; /* Mantén el mismo valor para que sea un círculo perfecto */
     object-fit: cover; /* Asegura que la imagen no se distorsione */
     display: flex; /* Habilita Flexbox */
     align-items: center; /* Centra verticalmente */
