@@ -672,7 +672,7 @@ section h3.section-subheading {
     text-align: center;
 }
 
-.certifications-item img {
+.certifications-image {
     display: flex; /* Habilita Flexbox */
     align-items: center; /* Centra verticalmente */
     justify-content: center; /* Centra horizontalmente */

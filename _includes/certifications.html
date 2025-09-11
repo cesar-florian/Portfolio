@@ -16,7 +16,9 @@
                 {% endif %}
                     <div class="certifications-item">
                         <a href="{{ certificate.url }}" target="_blank" >
-                            <img src="img/certifications/{{ certificate.image }}" class="img-responsive" alt="">
+                            <div class="certifications-image">
+                                <img src="img/certifications/{{ certificate.image }}" class="img-responsive" alt="">
+                            </div>
                         </a>
                         <a href="{{ certificate.url }}" target="_blank" >
                             <h4>{{ certificate.name }}</h4>
