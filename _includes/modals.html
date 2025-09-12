@@ -16,7 +16,7 @@
                             <hr class="star-primary">
                             <img src="img/portfolio/{{ project.img }}" class="img-responsive img-centered" alt="{{ project.alt }}">
                             <p>{{ project.description }}</p>
-                            {% if project.github_url %}
+                            {% if project.has_project_url %}
                             <a href="{{ project.url | prepend: site.baseurl }}">Ver mas...</a>
                             {% endif %}
                             {% if project.github_url %}
