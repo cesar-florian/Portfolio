@@ -11,6 +11,11 @@ summary: 'Tengo más de [years] años de experiencia diseñando, desarrollando e
 start-date: "2020-04-13"
 image: img/about/me.jpg
 
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/
+
 # Universidades/instituciones, nombre y titulo/certificado
 university:
 

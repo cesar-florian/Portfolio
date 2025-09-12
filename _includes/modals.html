@@ -1,6 +1,6 @@
  <!-- Portfolio Modals -->
- {% for post in site.posts %}
-    <div class="portfolio-modal modal fade" id="portfolioModal{{ post.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
+ {% for project in site.projects %}
+    <div class="portfolio-modal modal fade" id="portfolioModal{{ project.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -12,21 +12,35 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>{{ post.title }}</h2>
+                            <h2>{{ project.title }}</h2>
                             <hr class="star-primary">
-                            <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
-                            <p>{{ post.description }}</p>
+                            <img src="img/portfolio/{{ project.img }}" class="img-responsive img-centered" alt="{{ project.alt }}">
+                            <p>{{ project.description }}</p>
+                            {% if project.github_url %}
+                            <a href="{{ project.url | prepend: site.baseurl }}">Ver mas...</a>
+                            {% endif %}
+                            {% if project.github_url %}
+                            <a href="{{ project.github_url }}">GitHub</a>
+                            {% endif %}
                             <ul class="list-inline item-details">
-                                <li>Cliente:
-                                    <strong><a href="http://startbootstrap.com">{{ post.client }}</a>
-                                    </strong>
-                                </li>
                                 <li>Fecha:
-                                    <strong><a href="http://startbootstrap.com">{{ post.project-date }}</a>
+                                    <strong><a href="http://startbootstrap.com">{{ project.project-date }}</a>
                                     </strong>
                                 </li>
-                                <li>Servicio:
-                                    <strong><a href="http://startbootstrap.com">{{ post.category }}</a>
+                                <li>Rol:
+                                    <strong><a href="http://startbootstrap.com">{{ project.role }}</a>
+                                    </strong>
+                                </li>
+                                <li>Categoría:
+                                    <strong><a href="http://startbootstrap.com">{{ project.category }}</a>
+                                    </strong>
+                                </li>
+                                <li>Tecnologías:
+                                    <strong>
+                                        {% for tech in project.technologies %}
+                                        <span class="tag">{{ tech }}</span>
+                                        <!--<p><strong>Tecnologías:</strong> {{ page.tecnologias | join: ", " }}</p>-->
+                                        {% endfor %}
                                     </strong>
                                 </li>
                             </ul>

@@ -8,8 +8,7 @@ img: gcp-secure-infrastructure.png
 thumbnail: gcp-secure-infrastructure.png
 alt: gcp-secure-infrastructure
 project-date: Septiembre 2025
-github_url:
-has_project_url: true
+github_url: 
 role: 'Ingeniero de la Nube'
 technologies: ['GCP', 'FortiGate', 'Linux', 'IPSec', 'Snort', 'GrayLog']
 category: Cloud
