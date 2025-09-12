@@ -1,7 +1,7 @@
 ---
 title: Portafolio personal
 description: Un sitio web se portafolio profesional construido con Jekyll y hosteado en GitHub Pages para mostrar mi experiencia y mis habilidades.
-layout: posts
+#layout: posts
 modal-id: 2
 date: 2025-09-12
 img: gcp-secure-infrastructure.png
@@ -17,4 +17,3 @@ subcategory:
 tags: ['UX', 'UI', 'Web Design']
 
 ---
-

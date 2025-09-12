@@ -14,7 +14,8 @@ image: img/about/me.jpg
 collections:
   projects:
     output: true
-    permalink: /projects/:path/
+    permalink: /:collection/:path/
+    sort_by: date # orden creciente
 
 # Universidades/instituciones, nombre y titulo/certificado
 university:
